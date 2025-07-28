@@ -1,0 +1,16 @@
+.github-content {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+    width: 100%;
+    padding: 30px;
+    padding-right: 150px;
+    font-family: var(--mono);
+}
+
+@media (max-width: 756px){
+    .github-content {
+        display: none;
+    }
+}
