@@ -7,8 +7,8 @@ function GitHubFetch() {
     const [commit, setCommit] = useState("");
 
     useEffect(() => {
-        const repoUrl = "https://api.github.com/repos/Luft-phon/react-portfolio";
-        const contributorsUrl = "https://api.github.com/repos/Luft-phon/react-portfolio/stats/contributors";
+        const repoUrl = "https://api.github.com/repos/Luft-phon/luftphon-portfolio";
+        const contributorsUrl = "https://api.github.com/repos/Luft-phon/luftphon-portfolio/stats/contributors";
 
         Promise.all([
             fetch(repoUrl).then(res => {
