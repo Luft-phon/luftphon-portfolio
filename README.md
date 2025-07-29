@@ -1,14 +1,14 @@
 <h1 align="center"> Portfolio </h1>
 <p align="center">A modern solution for professionally showcasing skills, projects, and experience. Built with React.js.</p>
  <div  align="center" >
-   <img alt="Fav Icon Png" src="https://github.com/Luft-phon/react-portfolio/blob/main/public/portfolio.gif"/>
+   <img alt="Fav Icon Png" src="https://github.com/Luft-phon/luftphon-portfolio/blob/main/public/portfolio.gif"/>
  </div>
 
 
  <details>
    <summary align="center">VIEW MORE PHOTOS HERE</summary>
-    <img alt="Fav Icon Png" src="https://github.com/Luft-phon/react-portfolio/blob/main/public/about.jpg" />
-   <img alt="Fav Icon Png" src="https://github.com/Luft-phon/react-portfolio/blob/main/public/experience.jpg"/>
+    <img alt="Fav Icon Png" src="https://github.com/Luft-phon/luftphon-portfolio/blob/main/public/about.jpg" />
+   <img alt="Fav Icon Png" src="https://github.com/Luft-phon/luftphon-portfolio/blob/main/public/experience.jpg"/>
  </details>
 
 ## 🌐  What is this website?
