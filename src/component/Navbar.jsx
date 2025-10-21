@@ -11,9 +11,13 @@ function Navbar() {
                         <a href="https://www.linkedin.com/in/thanh-phong-129426276/"><FaLinkedin size={30} /></a>
                     </li>
                     <li>
-                        <a href="https://github.com/Luft-phon"><FaGithub size={30} /></a>                      
+                        <a href="https://github.com/Luft-phon"><FaGithub size={30} /></a>
                     </li>
-                    <li><Link to="/"> <FaFile size={30} /> </Link></li>
+                    <li>
+                        <a href="/Phong Ngo-Resume-Internship.pdf" target="_blank" rel="noopener noreferrer">
+                            <FaFile size={30} />
+                        </a>
+                    </li>
                 </ul>
                 <ul className="nav-scroll">
                     <li><Link to="Home" duration={500}>/home</Link></li>

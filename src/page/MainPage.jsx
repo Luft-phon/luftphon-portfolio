@@ -154,9 +154,10 @@ In my free time, I enjoy playing and analyzing chess games, thrifting, playing v
                                 <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
                                 <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
                                 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+                                <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
                                 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
                                 <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
-                                <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+                                <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
 
                             </div>
                         </div>
@@ -223,11 +224,11 @@ In my free time, I enjoy playing and analyzing chess games, thrifting, playing v
                             </h3>
                         </div>
                     </Fade>
-                        <div className="project-content">
-                            {project_name.map((item, index) => (
-                                <ProjectField key={index} title={item.title} content={item.content} repo={item.repo} tech={item.tech} period={item.period} link={item.link}/>
-                            ))}
-                        </div>
+                    <div className="project-content">
+                        {project_name.map((item, index) => (
+                            <ProjectField key={index} title={item.title} content={item.content} repo={item.repo} tech={item.tech} period={item.period} link={item.link} />
+                        ))}
+                    </div>
                 </section>
             </Element>
         </div>
